@@ -15,13 +15,8 @@
   },
   "Expected result": "The Last Edited Date/Time field should be present",
   "Reference": "CMP-14075",
-  "Original_Creator": "Maryna Dzhadzha",
+  "Original_Creator": "Kvitka",
   "Priority": "high",
-  "Assigned_To": "Maryna Dzhadzha",
+  "Assigned_To": "Kvitka",
   "Sprint": "1"
 }
-
-//EXpected Result:
-// -The "Last Edited Date/Time" field filled with the correct value
-// on the Form Response
-//-"Is last updated Version" set as "true", see attached image */

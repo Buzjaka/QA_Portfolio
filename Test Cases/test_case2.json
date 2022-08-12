@@ -1,6 +1,6 @@
 {
   "TestCase_id": "2",
-  "Summary": "Verify Some Functionality Type Field Population. Field Type",
+  "Title": "Verify Some Functionality Type Field Population. Field Type",
   "Preconditions": {
     "1": "Admin Permission set should be assigned to Admin User",
     "2": "Some Functionality should be configured",
@@ -14,8 +14,8 @@
   },
   "Expected result": "The field type should be Date/Time",
   "Reference": "CMP-14075",
-  "Original_Creator": "Maryna Dzhadzha",
+  "Original_Creator": "Kvitka",
   "Priority": "medium",
-  "Assigned_To": "Maryna Dzhadzha",
+  "Assigned_To": "Kvitka",
   "Sprint": "1"
 }
