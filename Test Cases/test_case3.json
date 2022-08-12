@@ -1,0 +1,21 @@
+{
+  "TestCase_id": "3",
+  "Summary": "Verify Some Functionality Type Field Population. Description",
+  "Preconditions": {
+    "1": "Admin Permission set should be assigned to Admin User",
+    "2": "Some Functionality should be configured",
+    "3": "Related Functionality for S.. object should be configured",
+    "4": "Log in as System Admin User",
+    "5": "Navigate to the Fields & Relationships on Form Response object in Setup",
+    "6": "Search for Last Edited Date/Time"
+  },
+  "Steps": {
+    "1": "Verify Description"
+  },
+  "Expected result": "Store the date and time when form response was saved by user from UI",
+  "Reference": "CMP-14075",
+  "Original_Creator": "Maryna Dzhadzha",
+  "Priority": "low",
+  "Assigned_To": "Maryna Dzhadzha",
+  "Sprint": "1"
+}
