@@ -1,0 +1,28 @@
+{
+  "BugId": "1",
+  "Priority": "High",
+  "Summary": "[Some object] - incorrect responses order in history",
+  "Environment": "Windows 10 Enterprise (Build 19044.1586), Chrome 103.0.5060.66 (64-bit ver)",
+  "Preconditions": {
+    "1": "Some Functionality should be configured",
+    "2": "Correct permissions should be assigned",
+    "3": "Login to the QA org as Business Admin User"
+  },
+  "Steps to reproduce": {
+    "1": "Navigate to the S.. tab",
+    "2": "Open any S..",
+    "3": "Navigate to tab with configured Questionnaire",
+    "4": "Make at least 3 responses",
+    "5": "Pay attention to the form response history that is displayed"
+  },
+  "Actual result": "Incorrect responses order in history, see CMP-145.png",
+  "Expected result": "The responses order in history are displayed correctly",
+  "Link": "CMP-14075",
+  "Reporter": "Kvitka Tsisyk Kasey",
+  "AssignedTo": "Kvitka Tsisyk Kasey",
+  "Affected Ver": "1.2.4",
+  "Fix Ver": "1.2.4",
+  "Status": "Closed",
+  "Attachments": "CMP-145.png",
+  "Comments": "Tested on the QA org. Fixed. Closed as Done"
+}
