@@ -1,6 +1,6 @@
 {
   "TestCase_id": "4",
-  "Summary": "Verify Some Functionality Type Field Population. Newly Created Form Response Value Saving",
+  "Title": "Verify Some Functionality Type Field Population. Newly Created Form Response Value Saving",
   "Preconditions": {
     "1": "Admin Permission set should be assigned to Admin User",
     "2": "Some Functionality should be configured",
@@ -18,8 +18,8 @@
   },
   "Expected result": "The Last Edited Date/Time field filled with the correct value on the Form Response",
   "Reference": "CMP-14075",
-  "Original_Creator": "Maryna Dzhadzha",
+  "Original_Creator": "Kvitka",
   "Priority": "high",
-  "Assigned_To": "Maryna Dzhadzha",
+  "Assigned_To": "Kvitka",
   "Sprint": "2"
 }
