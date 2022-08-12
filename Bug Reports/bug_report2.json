@@ -1,0 +1,28 @@
+{
+  "BugId": "2",
+  "Priority": "Medium",
+  "Summary": "[Some Object] - Error message after adding A.. to meeting",
+  "Environment": "Windows 10 Enterprise (Build 19044.1586), Chrome 103.0.5060.66 (64-bit ver)",
+  "Preconditions": {
+    "1": "At least 1 meeting should be created",
+    "2": "Login to the UAT org as Business Admin User"
+  },
+  "Steps to reproduce": {
+    "1": "Navigate to the Meetings tab",
+    "2": "Open any Meeting",
+    "3": "Navigate to the Participants tab",
+    "4": "Click on the +Add on any Participant",
+    "6": "Click on the Next button",
+    "7": "Click on the Next button again"
+  },
+  "Actual result": "Participant didn't add to the Participans, Error message appears, see Attachments",
+  "Expected result": "Participant successfully added, no Errors on the Adding page",
+  "Link": "CMP-14075",
+  "Reporter": "Taras Shevchenko",
+  "AssignedTo": "Ivan Franko",
+  "Affected Ver": "1.2.3",
+  "Fix Ver": "1.2.4",
+  "Status": "Ready for QA",
+  "Attachments": "CMP-14.png",
+  "Comments": ""
+}
