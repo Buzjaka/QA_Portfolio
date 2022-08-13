@@ -1,0 +1,22 @@
+{
+  "BugId": "4",
+  "Priority": "Low",
+  "Summary": "Plan Description field value didn't clear, see ",
+  "Environment": "iPad (8th generation, A2270), iPad OS: 15.4.1, Safari browser",
+  "Steps to reproduce": {
+    "1": "Navigate to the Plan tab",
+    "2": "Open any Plan with not empty Description field",
+    "3": "Clear the Description",
+    "4": "Save Changes"
+  },
+
+  "Actual result": "The Description field value didn't clear, see Attachments",
+  "Expected result": "The Description field value is saved empty",
+  "Reporter": "Malevych",
+  "AssignedTo": "Ivan Franko",
+  "Affected Ver": "1.2.3",
+  "Fix Ver": "1.2.4",
+  "Status": "In Progress",
+  "Attachments": "CMP-34.MP4",
+  "Comments": ""
+}

@@ -1,0 +1,16 @@
+{
+  "BugId": "3",
+  "Priority": "Hight",
+  "Summary": "Total price does not reflect to the product quantity",
+  "Environment": "Windows 10 Enterprise (Build 19044.1586), Chrome 103.0.5060.66 (64-bit ver)",
+  "Steps to reproduce": {
+    "1": "Go to any Category",
+    "2": "Add any item to the Cart",
+    "3": "Go to the Cart",
+    "4": "Change quantity of the product",
+    "5": "Go to the Payment page",
+    "6": "Observe the total price"
+  },
+  "Actual result": "Total price display as for only 1 item",
+  "Expected result": "Total price should reflect the quantity of the product"
+}
