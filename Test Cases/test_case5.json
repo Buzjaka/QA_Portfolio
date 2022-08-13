@@ -1,0 +1,27 @@
+{
+  "TestCase_id": "5",
+  "Title": "Verify Some Functionality Type Field Population. Existing Form Response Value Updating",
+  "Preconditions": {
+    "1": "Admin Permission set should be assigned to Admin User",
+    "2": "Some Functionality should be configured",
+    "3": "Related Functionality for S.. object should be configured",
+    "4": "Log in as Business Admin User"
+  },
+  "Steps": {
+    "1": "Navigate to the S..",
+    "2": "Open any S..",
+    "3": "Navigate to the Qualify&Tier tab",
+    "4": "Open any existing response",
+    "5": "Update any field with correct value",
+    "6": "Remember the last modified date/time",
+    "7": "Save response",
+    "8": "Verify Last Edited Date/Time field"
+  },
+
+  "Expected result": "The Last Edited Date/Time field filled with the correct value on the Form Response. Is last updated Version set as true, see attached image",
+  "Reference": "CMP-14075",
+  "Original_Creator": "Kvitka",
+  "Priority": "high",
+  "Assigned_To": "Kvitka",
+  "Sprint": "2"
+}

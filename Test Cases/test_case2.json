@@ -1,0 +1,21 @@
+{
+  "TestCase_id": "2",
+  "Title": "Verify Some Functionality Type Field Population. Field Type",
+  "Preconditions": {
+    "1": "Admin Permission set should be assigned to Admin User",
+    "2": "Some Functionality should be configured",
+    "3": "Related Functionality for S.. object should be configured",
+    "4": "Log in as System Admin User",
+    "5": "Navigate to the Fields & Relationships on Form Response object in Setup",
+    "6": "Search for Last Edited Date/Time"
+  },
+  "Steps": {
+    "1": "Verify Field Type"
+  },
+  "Expected result": "The field type should be Date/Time",
+  "Reference": "CMP-14075",
+  "Original_Creator": "Kvitka",
+  "Priority": "medium",
+  "Assigned_To": "Kvitka",
+  "Sprint": "1"
+}
