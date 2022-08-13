@@ -1,0 +1,22 @@
+{
+  "TestCase_id": "1",
+  "Title": "Verify Some Functionality Type Field Population. Date/Time Presence",
+  "Preconditions": {
+    "1": "Admin Permission set should be assigned to Admin User",
+    "2": "Some Functionality should be configured",
+    "3": "Related Functionality for S.. object should be configured",
+    "4": "Log in as System Admin User"
+  },
+  "Steps": {
+    "1": "Navigate to the Setup",
+    "2": "Navigate to the Form Response",
+    "3": "Navigate to the Fields & Relationships",
+    "4": "Search for Last Edited Date/Time"
+  },
+  "Expected result": "The Last Edited Date/Time field should be present",
+  "Reference": "CMP-14075",
+  "Original_Creator": "Kvitka",
+  "Priority": "high",
+  "Assigned_To": "Kvitka",
+  "Sprint": "1"
+}
